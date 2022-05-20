@@ -1,6 +1,6 @@
 # Python basics
 
-This repository has all-in-one `main.py` that demos basic data structures, syntax, style and features of python programming language 3.x
+This repository has all-in-one [main.py](./main.py) that demos basic data structures, syntax, style and features of python programming language 3.x
 
 ```sh
 # if you want to run it (to make sure it all valid)
