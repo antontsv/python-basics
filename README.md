@@ -9,8 +9,8 @@ python3 main.py
 
 In case you want to see similar layout in other language (for side-by-side
 comparison):
-- [Java](https://github.com/antontsv/java-basics)
-- [Go](https://github.com/antontsv/go-basics)
+- [Java](https://github.com/antontsv/java-basics/blob/main/Showcase.java)
+- [Go](https://github.com/antontsv/go-basics/blob/main/main.go)
 
 ## Reasons
 
