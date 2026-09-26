@@ -59,8 +59,10 @@ def main():
         for c in range(len(matrix[0])):
             print("%d is the value as row=%d and column=%d" %
                   (matrix[r][c], r, c))
-    dp = [[[0]*4]*3]*2  # i,j,k
-    print(dp)  # 2x3x4 matrix of zeros
+    R, C, D = 2, 3, 4
+    dp = [[0 for _ in range(C)] for _ in range(R)] # 2x3 matrix of zeros
+    matrix_3d = [[[0 for _ in range(D)] for _ in range(C)] for _ in range(R)] # 2x3x4 matrix of zeros
+    print(dp)
 
     intervals = [[3, 5], [2, 6]]  # i[0] is start, i[1] is end
     # sorting by asc start here; add reverse=True for desc
